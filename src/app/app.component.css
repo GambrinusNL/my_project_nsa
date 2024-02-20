@@ -11,7 +11,7 @@ h1:hover {
     color: red;
 }
 
-app-header, app-beerlist {
+app-header, app-beerlist, app-wishlist {
     text-align: center;
 }
 
