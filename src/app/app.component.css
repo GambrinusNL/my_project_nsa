@@ -1,5 +1,5 @@
 html {
-    background-color: green;
+    background-color: rgba(4, 35, 48);
 }
 
 h1 {
@@ -10,3 +10,8 @@ h1 {
 h1:hover {
     color: red;
 }
+
+app-header, app-beerlist {
+    text-align: center;
+}
+
