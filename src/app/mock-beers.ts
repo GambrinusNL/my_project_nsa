@@ -6,5 +6,5 @@ export const BEERS: Beer[] = [
   { id: 2, name: 'Dr. Death' },
   { id: 3, name: 'Beerbasto' },
   { id: 4, name: 'ComaBeer' },
-  { id: 5, name: 'GitBeer' }
+  { id: 5, name: 'GitBeers' }
 ];
