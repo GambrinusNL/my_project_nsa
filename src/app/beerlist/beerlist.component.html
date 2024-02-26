@@ -2,6 +2,8 @@
 
 <div style="text-align: center;">
     <div class="inline_l">
-        <p *ngFor="let beer of beers">- {{beer.name}}</p>
+        <p *ngFor="let beer of beers">- {{beer.name}}
+            <button (click)=clog()>X</button>
+        </p>
     <div>
 </div>

@@ -8,6 +8,5 @@ export const BEERS: Beer[] = [
   { id: 4, name: 'ComaBeer' },
   { id: 5, name: 'GitBeers' },
   { id: 6, name: 'SierBier' }
-  
 ];
 

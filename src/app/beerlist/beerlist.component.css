@@ -2,3 +2,6 @@ h2, p {
     color: aliceblue;
 }
 
+button {
+    float: right;
+}

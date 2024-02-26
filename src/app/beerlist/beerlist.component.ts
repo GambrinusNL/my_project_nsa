@@ -8,4 +8,8 @@ import { BEERS } from '../mock-beers'
 })
 export class BeerlistComponent {
   beers = BEERS
+
+  clog(): void {
+    alert("hello")
+  }
 }

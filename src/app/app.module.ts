@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BeerlistComponent } from './beerlist/beerlist.component';
 import { WishlistComponent } from './wishlist/wishlist.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BeerlistComponent,
-    WishlistComponent
+    WishlistComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
