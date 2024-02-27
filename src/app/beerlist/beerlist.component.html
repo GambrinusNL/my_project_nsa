@@ -3,7 +3,7 @@
 <div style="text-align: center;">
     <div class="inline_l">
         <p *ngFor="let beer of beers">- {{beer.name}}
-            <button (click)=clog()>X</button>
+            <button (click)=bremove(beer.name)>X</button>
         </p>
     <div>
 </div>

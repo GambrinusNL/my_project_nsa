@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { BEERS } from '../mock-beers'
+import { Beer } from '../beer'
 
 @Component({
   selector: 'app-beerlist',
@@ -7,9 +8,9 @@ import { BEERS } from '../mock-beers'
   styleUrl: './beerlist.component.css'
 })
 export class BeerlistComponent {
-  beers = BEERS
+  beers = BEERS;
 
-  clog(): void {
-    alert("hello")
+  bremove(name: string): void {
+    this.beers.splice(this.beers.findIndex((bla) => bla["name"] === name ), 1)
   }
 }
